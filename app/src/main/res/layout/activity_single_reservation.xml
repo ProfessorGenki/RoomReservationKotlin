@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical"
+    tools:context=".SingleReservationActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/singleReservation_userId_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User" />
+
+    <TextView
+        android:id="@+id/singleReservation_roomId_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room" />
+
+    <TextView
+        android:id="@+id/singleReservation_fromTime_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From" />
+
+    <TextView
+        android:id="@+id/singleReservation_toTime_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To" />
+
+    <TextView
+        android:id="@+id/singleReservation_purpose_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purpose" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/singleReservation_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorRed"
+        android:onClick="singleReservation_delete_button"
+        android:text="Delete"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="cancelButtonClicked"
+        android:text="Go Back"/>
+    </LinearLayout>
+</LinearLayout>

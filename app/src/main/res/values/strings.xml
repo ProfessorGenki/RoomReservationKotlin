@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RoomReservation</string>
+    <string name="Show_Reservation"> Show Reservation</string>
+    <string name="choose"> No Classroom Selected </string>
+    <string-array name="Classroom_ID">
+        <item>Classroom ID 1</item>
+        <item>Classroom ID 2</item>
+        <item>Classroom ID 3</item>
+        <item>Classroom ID 4</item>
+    </string-array>
+</resources>

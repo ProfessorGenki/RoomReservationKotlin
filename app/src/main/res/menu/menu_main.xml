@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_create_order"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="1"
+        android:title="Do something room related, idk i'll think of something later"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="2"
+        android:title="Share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_nothing_really"
+        android:icon="@mipmap/ic_launcher_round"
+        android:orderInCategory="3"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/bug"
+        android:icon="@mipmap/ic_launcher_round"
+        android:orderInCategory="4"
+        android:title="Report bug"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_absolutely_nothing"
+        android:icon="@mipmap/ic_launcher_round"
+        android:orderInCategory="5"
+        android:title="Build version"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@mipmap/ic_launcher_round"
+        android:orderInCategory="6"
+        android:title="Log Out"
+        app:showAsAction="never" />
+
+</menu>

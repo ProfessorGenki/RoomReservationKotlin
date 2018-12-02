@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466156332228",
+    "firebase_url": "https://test-chad.firebaseio.com",
+    "project_id": "test-chad",
+    "storage_bucket": "test-chad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466156332228:android:236ecd25337425eb",
+        "android_client_info": {
+          "package_name": "com.lmao.gayyy.roomreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466156332228-ql4u8re1ilt234r4ag5cui918fgv0p0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lmao.gayyy.roomreservation",
+            "certificate_hash": "84cec91e015f51fd783fd5e2aeb8526507113b2f"
+          }
+        },
+        {
+          "client_id": "466156332228-n4h4g3ou3td8ti7uin0nop1to51ake4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCODOCYqsqiHFER4GO7LEnUCZwjhbtIc2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466156332228-n4h4g3ou3td8ti7uin0nop1to51ake4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

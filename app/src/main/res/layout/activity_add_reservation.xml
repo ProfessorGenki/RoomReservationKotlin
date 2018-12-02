@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical"
+    tools:context=".AddReservationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add reservation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addReservation_userId_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User ID (should come from login...)" />
+
+    <EditText
+        android:id="@+id/addReservation_roomId_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room ID (should come from list ...)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/addReservation_fromTime_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From (mm-dd-yyyy hh:mm)" />
+
+    <EditText
+        android:id="@+id/addReservation_toTime_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To (mm-dd-yyyy hh:mm)" />
+
+    <EditText
+        android:id="@+id/addReservation_purpose_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Purpose"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="8dp"
+        android:onClick="addReservationButtonClicked"
+        android:background="@color/colorPrimary"
+        android:text="Add Reservation" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginLeft="8dp"
+        android:onClick="cancelButtonClicked"
+        android:background="@color/colorRed"
+        android:text="Cancel" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/addReservation_message_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
